@@ -58,30 +58,30 @@
     transform-origin: top left;
   }
   .teks:nth-child(5n) {
-    background: radial-gradient(#3dd8ff, #00a6ff);
+    background: #00a6ff;
       
   }
   
   .teks:nth-child(5n + 1) {
-    background: radial-gradient(#ffa3b4, #ff648b);
+    background: #ff648b;
   }
   
   .teks:nth-child(5n + 2) {
-    background: radial-gradient(#88b9fa, #309bff);
+    background: #309bff;
   }
   
   .teks:nth-child(5n + 3) {
-    background: radial-gradient(#60ef94, #58d56f);
+    background: #58d56f;
   }
   
   .teks:nth-child(5n + 4) {
-    background: radial-gradient(#f588d8, #c0a3e5);
+    background: #c0a3e5;
   }
   .teks::after {
     content: "👆";
     position: absolute;
     bottom: 40px;
-    font-size: 40px;
+    font-size: 50px;
   }
   
   .panda {
