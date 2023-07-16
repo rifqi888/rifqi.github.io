@@ -6,7 +6,7 @@
 
 body {
   overflow: hidden;
-  background: linear-gradient(to bottom, #00b4db, #0083b0);
+  background: linear-gradient(to bottom, #ffe1e6, #ffb6b9);
 }
 
 .preload {
@@ -28,7 +28,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Ubah warna latar belakang sesuai preferensi Anda */
+  background-color: rgba(255, 182, 185, 0.8);
   z-index: 9999;
   display: none;
 }
@@ -40,7 +40,6 @@ body {
 .preload p {
   color: #fff;
   animation: load 3s ease;
-  -webkit-animation: load 1s ease infinite;
 }
 
 @keyframes load {
@@ -67,8 +66,8 @@ body {
   align-items: center;
   font-size: 2em;
   font-weight: 500;
-  color: white;
-  text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.5);
+  color: #ff80ab;
+  text-shadow: 2px 2px 4px rgba(255, 128, 171, 0.5);
   padding: 30px;
   text-align: center;
   cursor: pointer;
@@ -77,23 +76,23 @@ body {
 }
 
 .teks:nth-child(5n) {
-  background: linear-gradient(to bottom right, #f15bb5, #ffb8d1);
+  background: linear-gradient(to bottom right, #f3a1a8, #ffced8);
 }
 
 .teks:nth-child(5n + 1) {
-  background: linear-gradient(to bottom right, #f78fb3, #fecfef);
+  background: linear-gradient(to bottom right, #84a9ac, #dbf4ff);
 }
 
 .teks:nth-child(5n + 2) {
-  background: linear-gradient(to bottom right, #74ebd5, #acb6e5);
+  background: linear-gradient(to bottom right, #e4a9d4, #f1c0f6);
 }
 
 .teks:nth-child(5n + 3) {
-  background: linear-gradient(to bottom right, #fdcbf1, #e6dee9);
+  background: linear-gradient(to bottom right, #ffbad4, #ffd8eb);
 }
 
 .teks:nth-child(5n + 4) {
-  background: linear-gradient(to bottom right, #d4b4e2, #f9d423);
+  background: linear-gradient(to bottom right, #ffd3b6, #ffe5cc);
 }
 
 .teks::after {
@@ -114,7 +113,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  background: linear-gradient(to bottom right, #ffb8d1, #acb6e5);
+  background: linear-gradient(to bottom right, #dbf4ff, #84a9ac);
   text-align: center;
 }
 
@@ -122,8 +121,8 @@ body {
   position: relative;
   display: inline-block;
   text-align: center;
-  background: white;
-  color: #373737;
+  background: #ffffff;
+  color: #ff80ab;
   font-size: 2em;
   font-weight: 600;
   padding: 15px 30px 10px;
@@ -140,7 +139,7 @@ body {
   height: 25px;
   width: 25px;
   position: absolute;
-  background: white;
+  background: #ffffff;
   left: 10px;
   bottom: -10px;
   border-radius: 50%;
@@ -152,7 +151,7 @@ body {
   height: 20px;
   width: 25px;
   position: absolute;
-  background: #fdcbf1;
+  background: #ffb6b9;
   left: 20px;
   bottom: -13px;
   border-radius: 50%;
@@ -164,9 +163,9 @@ body {
 }
 
 .panda .luv i {
-  color: #e84118;
+  color: #ff80ab;
   font-size: 8em;
-  text-shadow: 0 0 5px #e84118, 0 0 5px #e84118, 0 0 5px #e84118, 0 0 5px #e84118;
+  text-shadow: 0 0 5px #ff80ab, 0 0 5px #ff80ab, 0 0 5px #ff80ab, 0 0 5px #ff80ab;
   margin-top: 40px;
   animation: jj 0.8s ease-in-out infinite alternate;
   cursor: pointer;
@@ -200,7 +199,7 @@ body {
   bottom: 0;
   right: 0;
   scale: 1.1;
-  background: #000000;
+  background: #ffffff;
   background-size: cover;
   filter: blur(5px);
   -webkit-filter: blur(5px);
@@ -221,7 +220,7 @@ body {
 
 .frame {
   box-sizing: border-box;
-  background: white;
+  background: #ffffff;
   margin-bottom: 20px;
   margin: auto;
   margin-bottom: 20px;
@@ -230,17 +229,6 @@ body {
   max-width: 400px;
   padding: 30px 15px 20px;
   animation: slide-up 0.8s ease forwards;
-}
-
-@keyframes slide-up {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 .frame img {
@@ -257,8 +245,8 @@ body {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
-  background: white;
-  color: #232323;
+  background: #ffffff;
+  color: #ff80ab;
   padding: 7px 20px;
   border-radius: 5px;
 }
@@ -279,7 +267,7 @@ body {
 }
 
 .lope span {
-  color: white;
+  color: #ff80ab;
   position: relative;
   margin-top: -40px;
   animation: animate 5s linear infinite;
@@ -310,8 +298,8 @@ body {
 
 marquee {
   width: 100%;
-  background: linear-gradient(to bottom, #ff4081, #3f51b5);
-  color: white;
+  background: linear-gradient(to bottom right, #ffb6b9, #ff80ab);
+  color: #ffffff;
   font-size: 24px;
   padding: 10px;
   font-weight: bold;
