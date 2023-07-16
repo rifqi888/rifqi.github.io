@@ -59,6 +59,7 @@
   }
   .teks:nth-child(5n) {
     background: radial-gradient(#3dd8ff, #00a6ff);
+      
   }
   
   .teks:nth-child(5n + 1) {
@@ -79,7 +80,7 @@
   .teks::after {
     content: "👆";
     position: absolute;
-    bottom: 15px;
+    bottom: 40px;
   }
   
   .panda {
