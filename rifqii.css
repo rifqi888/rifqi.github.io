@@ -79,7 +79,7 @@
   .teks::after {
     content: "👆";
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
   }
   
   .panda {
