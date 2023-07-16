@@ -102,75 +102,41 @@ body {
   font-size: 50px;
 }
 
-.panda {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 100px;
-  background: linear-gradient(to bottom right, #007eff, #00b3ff);
-  text-align: center;
-}
-
-.panda p {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  background: white;
-  color: #373737;
-  font-size: 2em;
-  font-weight: 600;
-  padding: 15px 30px 10px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.panda img {
-  width: 250px;
-}
-
-.panda p::before {
-  content: "";
-  height: 25px;
-  width: 25px;
-  position: absolute;
-  background: white;
-  left: 10px;
-  bottom: -10px;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.panda p::after {
-  content: "";
-  height: 20px;
-  width: 25px;
-  position: absolute;
-  background: #8c1aff;
-  left: 20px;
-  bottom: -13px;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.luv {
-  position: relative;
-}
-
-.panda .luv i {
-  color: #8c1aff;
-  font-size: 8em;
-  text-shadow: 0 0 5px #8c1aff, 0 0 5px #8c1aff, 0 0 5px #8c1aff, 0 0 5px #8c1aff;
-  margin-top: 40px;
-  animation: jj 0.8s ease-in-out infinite alternate;
-  cursor: pointer;
-}
-
+ .panda p::before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background: white;
+    left: 10px;
+    bottom: -10px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .panda p::after {
+    content: "";
+    height: 20px;
+    width: 25px;
+    position: absolute;
+    background: #55c4ff;
+    left: 20px;
+    bottom: -13px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .luv {
+    position: relative;
+  }
+  .panda .luv i {
+    color: rgb(255, 0, 81);
+    font-size: 5em;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+    margin-top: 40px;
+    animation: jj 0.8s ease-in-out infinite alternate;
+    cursor: pointer;
+    -webkit-animation: jj 0.8s ease-in-out infinite alternate;
+  }
+  
 @keyframes jj {
   to {
     transform: scale(1.1);
