@@ -6,7 +6,7 @@
 
 body {
   overflow: hidden;
-  background: #38a5e0;
+  background: linear-gradient(to bottom, #38a5e0, #0040a0);
 }
 
 .preload {
