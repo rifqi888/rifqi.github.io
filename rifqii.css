@@ -113,6 +113,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 100px;
+  background: linear-gradient(to bottom, #ff648b, #00a6ff);
+  text-align: center;
 }
 
 .panda p {
@@ -121,15 +124,15 @@ body {
   text-align: center;
   background: white;
   color: #373737;
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 15px 30px 10px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 .panda img {
-  width: 230px;
+  width: 250px;
 }
 
 .panda p::before {
@@ -162,7 +165,7 @@ body {
 
 .panda .luv i {
   color: rgb(255, 0, 81);
-  font-size: 5em;
+  font-size: 8em;
   text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
   margin-top: 40px;
   animation: jj 0.8s ease-in-out infinite alternate;
