@@ -6,7 +6,7 @@
 
 body {
   overflow: hidden;
-  background: linear-gradient(to bottom, #2c3e50, #3498db);
+  background: linear-gradient(to bottom, #FF4081, #3F51B5);
 }
 
 .preload {
@@ -38,7 +38,7 @@ body {
 }
 
 .preload p {
-  color: #fff;
+  color: #FFF;
   animation: load 3s ease;
   -webkit-animation: load 1s ease infinite;
 }
@@ -77,25 +77,24 @@ body {
 }
 
 .teks:nth-child(5n) {
-  background: linear-gradient(to bottom right, #f9ca24, #f0932b);
+  background: linear-gradient(to bottom right, #F0932B, #1ABC9C);
 }
 
 .teks:nth-child(5n + 1) {
-  background: linear-gradient(to bottom right, #22a6b3, #1abc9c);
+  background: linear-gradient(to bottom right, #22A6B3, #1ABC9C);
 }
 
 .teks:nth-child(5n + 2) {
-  background: linear-gradient(to bottom right, #6ab04c, #badc58);
+  background: linear-gradient(to bottom right, #6AB04C, #BAD58C);
 }
 
 .teks:nth-child(5n + 3) {
-  background: linear-gradient(to bottom right, #be2edd, #ff9ff3);
+  background: linear-gradient(to bottom right, #BE2EDD, #FF9FF3);
 }
 
 .teks:nth-child(5n + 4) {
-  background: linear-gradient(to bottom right, #a55eea, #5f27cd);
+  background: linear-gradient(to bottom right, #A55EEA, #5F27CD);
 }
-
 
 .teks::after {
   content: "👆";
@@ -115,7 +114,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  background: linear-gradient(to bottom right, #f0932b, #1abc9c);
+  background: linear-gradient(to bottom right, #F0932B, #1ABC9C);
   text-align: center;
 }
 
@@ -153,20 +152,21 @@ body {
   height: 20px;
   width: 25px;
   position: absolute;
-  background: #ff9ff3;
+  background: #FF9FF3;
   left: 20px;
   bottom: -13px;
   border-radius: 50%;
   z-index: -1;
 }
+
 .luv {
   position: relative;
 }
 
 .panda .luv i {
-  color: #e84118;
+  color: #E84118;
   font-size: 8em;
-  text-shadow: 0 0 5px #e84118, 0 0 5px #e84118, 0 0 5px #e84118, 0 0 5px #e84118;
+  text-shadow: 0 0 5px #E84118, 0 0 5px #E84118, 0 0 5px #E84118, 0 0 5px #E84118;
   margin-top: 40px;
   animation: jj 0.8s ease-in-out infinite alternate;
   cursor: pointer;
@@ -230,7 +230,9 @@ body {
   max-width: 400px;
   padding: 30px 15px 20px;
   animation: slide-up 0.8s ease forwards;
-  @keyframes slide-up {
+}
+
+@keyframes slide-up {
   from {
     transform: translateY(50px);
     opacity: 0;
@@ -239,7 +241,6 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
-}
 }
 
 .frame img {
@@ -309,7 +310,7 @@ body {
 
 marquee {
   width: 100%;
-  background: linear-gradient(to bottom, #ff4081, #3f51b5);
+  background: linear-gradient(to bottom, #FF4081, #3F51B5);
   color: white;
   font-size: 24px;
   padding: 10px;
