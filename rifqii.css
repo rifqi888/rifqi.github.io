@@ -6,7 +6,7 @@
 
 body {
   overflow: hidden;
-  background: linear-gradient(to bottom, #ffe1e6, #ffb6b9);
+  background: linear-gradient(to bottom, #f1f8ff, #a8d8ea);
 }
 
 .preload {
@@ -28,7 +28,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 182, 185, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
   display: none;
 }
@@ -66,8 +66,8 @@ body {
   align-items: center;
   font-size: 2em;
   font-weight: 500;
-  color: #ff80ab;
-  text-shadow: 2px 2px 4px rgba(255, 128, 171, 0.5);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 30px;
   text-align: center;
   cursor: pointer;
@@ -76,23 +76,23 @@ body {
 }
 
 .teks:nth-child(5n) {
-  background: linear-gradient(to bottom right, #f3a1a8, #ffced8);
+  background: linear-gradient(to bottom right, #ffb86c, #ff7f50);
 }
 
 .teks:nth-child(5n + 1) {
-  background: linear-gradient(to bottom right, #84a9ac, #dbf4ff);
+  background: linear-gradient(to bottom right, #a2d5f2, #6699cc);
 }
 
 .teks:nth-child(5n + 2) {
-  background: linear-gradient(to bottom right, #e4a9d4, #f1c0f6);
+  background: linear-gradient(to bottom right, #9ad3e2, #1abc9c);
 }
 
 .teks:nth-child(5n + 3) {
-  background: linear-gradient(to bottom right, #ffbad4, #ffd8eb);
+  background: linear-gradient(to bottom right, #f4acb7, #ff69b4);
 }
 
 .teks:nth-child(5n + 4) {
-  background: linear-gradient(to bottom right, #ffd3b6, #ffe5cc);
+  background: linear-gradient(to bottom right, #ffd86f, #ffb366);
 }
 
 .teks::after {
@@ -113,7 +113,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  background: linear-gradient(to bottom right, #dbf4ff, #84a9ac);
+  background: linear-gradient(to bottom right, #a2d5f2, #6699cc);
   text-align: center;
 }
 
@@ -121,8 +121,8 @@ body {
   position: relative;
   display: inline-block;
   text-align: center;
-  background: #ffffff;
-  color: #ff80ab;
+  background: white;
+  color: #373737;
   font-size: 2em;
   font-weight: 600;
   padding: 15px 30px 10px;
@@ -139,7 +139,7 @@ body {
   height: 25px;
   width: 25px;
   position: absolute;
-  background: #ffffff;
+  background: white;
   left: 10px;
   bottom: -10px;
   border-radius: 50%;
@@ -151,7 +151,7 @@ body {
   height: 20px;
   width: 25px;
   position: absolute;
-  background: #ffb6b9;
+  background: #ff69b4;
   left: 20px;
   bottom: -13px;
   border-radius: 50%;
@@ -163,9 +163,9 @@ body {
 }
 
 .panda .luv i {
-  color: #ff80ab;
+  color: #ff69b4;
   font-size: 8em;
-  text-shadow: 0 0 5px #ff80ab, 0 0 5px #ff80ab, 0 0 5px #ff80ab, 0 0 5px #ff80ab;
+  text-shadow: 0 0 5px #ff69b4, 0 0 5px #ff69b4, 0 0 5px #ff69b4, 0 0 5px #ff69b4;
   margin-top: 40px;
   animation: jj 0.8s ease-in-out infinite alternate;
   cursor: pointer;
@@ -220,7 +220,7 @@ body {
 
 .frame {
   box-sizing: border-box;
-  background: #ffffff;
+  background: white;
   margin-bottom: 20px;
   margin: auto;
   margin-bottom: 20px;
@@ -245,8 +245,8 @@ body {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
-  background: #ffffff;
-  color: #ff80ab;
+  background: white;
+  color: #373737;
   padding: 7px 20px;
   border-radius: 5px;
 }
@@ -267,7 +267,7 @@ body {
 }
 
 .lope span {
-  color: #ff80ab;
+  color: #373737;
   position: relative;
   margin-top: -40px;
   animation: animate 5s linear infinite;
@@ -298,8 +298,8 @@ body {
 
 marquee {
   width: 100%;
-  background: linear-gradient(to bottom right, #ffb6b9, #ff80ab);
-  color: #ffffff;
+  background: linear-gradient(to bottom right, #ffb86c, #ff7f50);
+  color: white;
   font-size: 24px;
   padding: 10px;
   font-weight: bold;
