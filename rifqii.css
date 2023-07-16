@@ -66,7 +66,7 @@
   }
   
   .teks:nth-child(5n + 2) {
-    background: radial-gradient(#82b8ff, #309bff);
+    background: radial-gradient(#88b9fa, #309bff);
   }
   
   .teks:nth-child(5n + 3) {
@@ -77,7 +77,7 @@
     background: radial-gradient(#f588d8, #c0a3e5);
   }
   .teks::after {
-    content: "🫶";
+    content: "";
     position: absolute;
     bottom: 20px;
   }
