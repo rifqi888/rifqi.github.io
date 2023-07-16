@@ -113,7 +113,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  background: linear-gradient(to bottom right, #ebebeb, #fcca7b);
+  background: linear-gradient(to bottom right, #ff8383, #4e60ff);
   text-align: center;
 }
 
@@ -165,7 +165,7 @@ body {
 .panda .luv i {
   color: #ff001e;
   font-size: 8em;
-  text-shadow: 0 0 5px #ff6060, 0 0 5px #ff8484, 0 0 5px #ffb8b8, 0 0 5px #ffffff;
+  text-shadow: 0 0 5px #ff6b6b, 0 0 5px #ffc9c9, 0 0 5px #ffffff, 0 0 5px #ffffff;
   margin-top: 40px;
   animation: jj 0.8s ease-in-out infinite alternate;
   cursor: pointer;
