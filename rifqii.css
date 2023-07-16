@@ -6,7 +6,7 @@
 
 body {
   overflow: hidden;
-  background: linear-gradient(to bottom, #38a5e0, #0040a0);
+  background: linear-gradient(to bottom, #FF6C00, #1A237E);
 }
 
 .preload {
@@ -28,7 +28,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Ubah warna latar belakang sesuai preferensi Anda */
+   background-color: rgba(0, 0, 0, 0.7); /* Ubah warna latar belakang sesuai preferensi Anda */
   z-index: 9999;
   display: none;
 }
@@ -77,23 +77,23 @@ body {
 }
 
 .teks:nth-child(5n) {
-  background: #00a6ff;
+  background: #FF4081;
 }
 
 .teks:nth-child(5n + 1) {
-  background: #ff648b;
+ background: #FFD600;
 }
 
 .teks:nth-child(5n + 2) {
-  background: #309bff;
+  background: #00E676;
 }
 
 .teks:nth-child(5n + 3) {
-  background: #58d56f;
+  background: #651FFF;
 }
 
 .teks:nth-child(5n + 4) {
-  background: #c0a3e5;
+  background: #FF5722;
 }
 
 .teks::after {
@@ -114,7 +114,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding-top: 100px;
-  background: linear-gradient(to bottom, #ff648b, #00a6ff);
+ background: linear-gradient(to bottom, #FF4081, #2962FF);
   text-align: center;
 }
 
@@ -122,7 +122,7 @@ body {
   position: relative;
   display: inline-block;
   text-align: center;
-  background: white;
+  background: #FFFFFF;
   color: #373737;
   font-size: 2em;
   font-weight: 600;
@@ -152,7 +152,7 @@ body {
   height: 20px;
   width: 25px;
   position: absolute;
-  background: #55c4ff;
+  background: #FF6D00;
   left: 20px;
   bottom: -13px;
   border-radius: 50%;
@@ -164,7 +164,7 @@ body {
 }
 
 .panda .luv i {
-  color: rgb(255, 0, 81);
+  color: #FF4081;
   font-size: 8em;
   text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
   margin-top: 40px;
