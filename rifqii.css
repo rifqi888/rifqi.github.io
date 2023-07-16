@@ -77,7 +77,7 @@
     background: radial-gradient(#f588d8, #c0a3e5);
   }
   .teks::after {
-    content: "";
+    content: "click 👆";
     position: absolute;
     bottom: 20px;
   }
