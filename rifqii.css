@@ -84,7 +84,7 @@ body {
 }
 
 .teks:nth-child(5n + 2) {
-  background: linear-gradient(to bottom right, #ebebeb, #fcca7b);
+  background: linear-gradient(to bottom right, #17ff70, #7bdefc);
 }
 
 .teks:nth-child(5n + 3) {
